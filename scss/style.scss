@@ -1,4 +1,4 @@
-@import 'bourbon'; // http://bourbon.io/
+// Note: we use Autoprefixer to add vendor prefixes to our CSS -> https://github.com/postcss/autoprefixer
 
 @import '../partials/variables'; // colors, fonts etc...
 
@@ -13,7 +13,7 @@ Primary style
 -------------------------------- */
 
 *, *::after, *::before {
-	@include box-sizing(border-box);
+	box-sizing: border-box;
 }
 
 html {
@@ -61,6 +61,3 @@ Patterns - reusable parts of our design
 Main Components 
 
 -------------------------------- */
-
-
-
